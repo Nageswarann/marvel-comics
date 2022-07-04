@@ -1,0 +1,94 @@
+.card {
+    box-shadow: 0 4px 8px 0 #212121;
+    transition: 0.3s;
+    width: 225px;
+    height:315px;
+    margin: 25px;
+    background-color: #383434;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 #212121;
+  }
+
+  .container {
+    padding: 2px 8px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-img {
+    max-width: 225px;
+    max-height: 250px;
+    min-height: 250px;
+    min-width:225px;
+    border-radius: 5px 5px 0px 0px;
+  }
+  
+  .comics-container {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 10px;
+    gap: 40px;
+    background-color: #3e3c3e;
+  }
+
+  .comics {
+    width:1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .pagination{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  .help-text{
+    width:100%;
+    color:white;
+    font-size: 22px;
+  }
+
+  .search-results {
+      padding-top:22px;
+      padding-left: 22px;
+  }
+  
+  .char-results{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px;
+    padding-bottom: 0px;
+  }
+  
+  .filter-btn{
+    width: 120px;
+  }
+  
+  .active-page{
+    background-color: #2d2c2c;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin: 0px 20px;
+  }
+  
+  .loading-txt {
+    visibility: hidden;
+  }
+  
+  .show {
+    visibility: visible;
+  }
+
+  .yellow-text{
+      color: #968109
+  }
